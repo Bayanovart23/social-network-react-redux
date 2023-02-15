@@ -1,0 +1,8 @@
+.avatar{
+    border-radius: 30px;
+    width: 40px;
+    margin-bottom: 0;
+}
+.selectedPage {
+    font-weight: bold;
+}

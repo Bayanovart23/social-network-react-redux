@@ -1,0 +1,61 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.active {
+    color: gold;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems {
+    align-items: end;
+}
+
+.dialogsItems > .dialogsItem {
+    display: flex;
+    border: 1px whitesmoke solid;
+    border-radius: 10px;
+    margin: 5px;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.dialogsItems > .dialogsItem:hover {
+    background-color: rgba(22, 22, 22, 0.5);
+}
+
+.dialogsItems > .dialogsItem > a {
+    font-size: 1.4em;
+    margin: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.dialogsItems > .dialogsItem > a:hover {
+    color: gold;
+}
+
+.dialogsItems > .dialogsItem > img {
+    border-radius: 40px;
+    width: 40px;
+}
+
+.dialogsItem:active {
+    color: gold;
+}
+
+.messagesItems {
+    padding: 10px;
+}
+
+.sendMessageItem {
+    margin-top: 40vh;
+}
+
+.sendMessageitem > button {
+    display: flex;
+}
