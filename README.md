@@ -1,1 +1,1 @@
-# social-network-react-redux
+# social-network-react-redux on class conponents without hooks 
